@@ -1,52 +1,18 @@
-# Prerequisites
-*.d
+//This is my code to create 3 seperate variables for storing a letter grade value, all of which represent the grade I think I will get on each test in the class.  I apoligize in advance if I sent this file incorrectly to canvas, or not through a C file.  The only
+//computer I had access to was a windows PC at my apartment, of which I'm not a fan of.  Again, I aplogize in advance as it is also my first time coding on this platform.
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#include<stdio.h>
+int main() {
 
-# Linker output
-*.ilk
-*.map
-*.exp
+grade_test1 = "B+";
 
-# Precompiled Headers
-*.gch
-*.pch
+grade_test2 = "B";
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+grade_test3 = "C+";
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+printf("Grade on test 1:\n", grade_test1);
+printf("Grade on test 2:\n", grade_test2);
+printf("Grade on test 3:\n", grade_test3);
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+return 0;
+;
